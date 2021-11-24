@@ -1,0 +1,213 @@
+body {
+    background-color:rgb(202, 219, 255);
+}
+
+h1 {
+    color:rgb(86, 141, 196);
+    background-color:rgb(229, 234, 250);
+    font-size: 2em;
+    border: azure 3px double;
+    border-radius: 15px 50px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    list-style-position: inside;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0;
+    margin: 0;
+}
+
+li {
+    font-family: 'Cormorant', serif;
+    color: azure;
+    font-style: italic;
+    padding: 5px 5px 5px 5px;
+}
+
+a {
+    margin:0;
+}
+
+a:link {
+    color:lightseagreen;
+    text-decoration: none;
+}
+
+a:visited {
+    color:rgb(220, 114, 230);
+    text-decoration: underline;
+}
+
+a:hover {
+    color:lightsalmon;
+    text-decoration: underline;
+}
+
+a:active {
+    color:hotpink;
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: 'Cormorant', serif;
+    color: azure;
+    font-size: 1.5em;
+    background-color: rgb(126, 151, 233);
+    border: azure 1.5px dashed;
+    border-radius: 50px 15px;
+    padding: 10px;
+    margin: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro {
+    font-family: 'Cormorant', serif;
+    color: rgb(138, 138, 138);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instructions {
+    font-family: 'Cormorant', serif;
+    color: rgb(138, 138, 138);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mountain {
+    height: 3em;
+    width: 3em;
+}
+
+.map {
+    height: 34.067em;
+    width: 50em;
+    }
+    
+footer {
+    font-family: 'Cormorant', serif;
+    font-size: 1em;
+    color: azure;
+    background-color: rgb(87, 122, 236);
+    border: azure 3px double;
+    border-radius: 15px 50px;
+    padding: 0px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    order: -2;
+}
+
+@media only screen and (min-width:320px) {
+    h2 {
+        color: rgb(223, 144, 183);
+    }
+    .map {
+
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    h2 {
+        color: azure;
+    }
+    .map {
+
+
+    }
+}
+
+@media only screen and (min-width: 980px) {
+    h2 {
+        color: azure;
+    }
+    .map {
+
+    }
+}
+
+.snowflake {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(white, white);
+    border-radius: 50%;
+    filter: drop-shadow(0 0 10px white);
+  }
+
+.snowBar {
+    font-family: 'Cormorant', serif;
+    font-size: 1em;
+    color: azure;
+    background-color: grey;
+    width: 4em;
+    height: 2em;
+    border-radius: 5px;
+    padding: 0.5em;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.fa {
+    padding: 0.625rem;
+    font-size: 1.875rem;
+    width: 1.875rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 2px;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: azure;
+  color: #3B5998;
+}
+
+.fa-instagram {
+    background: azure;
+    color: #125688;
+  }
+
+.fa-twitter {
+    background: azure;
+    color: #55ACEE;
+  }
+  
+.fa-snowflake {
+    color:azure;
+}
+
+.contact {
+    color: azure;
+}
+
+
+

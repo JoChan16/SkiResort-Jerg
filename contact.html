@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>Ski Resort: Jerg</title>
+         <link rel="stylesheet" href="./css/main.css">
+         <link rel="stylesheet" href="./css/linkages.css">
+         <script src="./js/app.js"></script>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <script src="https://kit.fontawesome.com/980e3caf4c.js" crossorigin="anonymous"></script>
+         <script src="./js/PureSnow.js"></script>
+    </head>
+    <body>
+        <div class="snowBar">
+            <input type="checkbox" id="toggle_snow" checked="true" onclick="toggle_snow()" class="checker"> Let it Snow! </input>
+        </div>   
+        <div id="snow"></div>               
+        <h1><img src="./img/Mountain Banner.png" alt="mountain" class="mountain"><a href="./index.html">Ski Resort: Jerg</a></h1>     
+                       
+        <main> 
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./accommodation.html">Accommodation</a></li>
+                    <li><a href="./food.html">Food</a></li>
+                    <li><a href="./gearrental.html">Gear Rental</a></li>                   
+                    <li><a href="./lift.html">Lift Passes</a></li>   
+                    <li><a href="./skischool.html">Ski School</a></li>
+                </ul>
+            </nav>
+            <div>
+            <h2>Contact Us</h2>
+            <div class="contact">
+                <form>
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" name="fullname" placeholder="Your full name..">
+                  
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your email..">
+
+                    <label for="message">Message</label>
+                    <input type="text" id="message" name="message" placeholder="Your Message to us Xx...">
+                  
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                      <option value="australia">Australia</option>
+                      <option value="uk">UK</option>
+                      <option value="canada">Canada</option>
+                      <option value="usa">USA</option>
+                    </select>
+                  
+                    <input type="submit" value="Submit" onclick="return confirm('Thank you! We will get back to you as soon as possible!')">
+                  </form>
+            </div>
+        </main>
+
+        <footer>
+            <ul>
+                <li><a href="https://twitter.com" class="fa fa-twitter"></a></li>
+                <li><a href="https://instagram.com" class="fa fa-instagram"></a></li>
+                <li><a href="https://facebook.com" class="fa fa-facebook"></a></li>
+            </ul>
+            <a href="./contact.html" class="contact">Contact Us</a>
+            <p>May lots of <i class="far fa-snowflake"></i> be here for you!</p>
+        </footer>
+
+    </body>
+</html>

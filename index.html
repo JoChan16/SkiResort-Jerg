@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>Ski Resort: Jerg</title>
+         <link rel="stylesheet" href="./css/main.css">
+         <link rel="stylesheet" href="./css/linkages.css">
+         <script src="./js/app.js"></script>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <script src="https://kit.fontawesome.com/980e3caf4c.js" crossorigin="anonymous"></script>
+         <script src="./js/PureSnow.js"></script>
+    </head>
+
+    <body>
+        <div class="snowBar">
+            <input type="checkbox" id="toggle_snow" checked="true" onclick="toggle_snow()" class="checker"> Let it Snow! </input>
+        </div>
+        <h1><img src="./img/Mountain Banner.png" alt="mountain" class="mountain"></h1>
+        <div id="snow"></div>  
+            <h2 class="header">Ski Resort: Jerg</h2>
+            <p class="intro"> THE PLACE TO SKI SINCE 2021</p>
+            <p class="instructions">To start planning your adventure, click on the relevant areas on the map below!</p>
+        
+        <main>        
+            <div class="image">
+                <img src="./img/Ski Resort Info Map.jpg" alt="Jerg Navigation Map" usemap="#resortmap" class="map" >
+                <map name="resortmap">
+                    <area shape="poly" coords="126,276,167,272,199,319,191,323,192,339,157,346,104,346,96,327,92,325,121,282" href="./accommodation.html" title="Accommodation"> 
+                    <area shape="poly" coords="6,282,50,282,55,272,75,253,68,229,86,212,109,231,107,243,116,240,139,266,121,273,107,297,86,300,83,334,62,342,2,344,2,307,5,288" href="./food.html" title="Food">
+                    <area shape="poly" coords="351,387,360,394,364,382,377,386,383,387,375,400,379,416,427,405,439,392,433,381,448,373,453,387,478,386,453,392,466,399,481,401,484,416,454,431,372,435,338,423,346,410,362,411,362,400,350,394" href="./gearrental.html" title="Gear Rental">
+                    <area shape="poly" coords="520,130,570,130,685,327,637,356" href="./lift.html" title="Lift Passes">
+                    <area shape="rect" coords="215,249,310,345" href="./skischool.html" title="Ski School">
+                    <area shape="poly" coords="253,478,270,478,282,469,309,471,318,482,441,496,459,497,474,482,498,483,505,503,525,507,516,535,433,518,325,506,235,510" href="./transport.html" title="Transport">
+                </map>
+            </div>
+        </main>
+        
+        <footer>
+            <ul>
+                <li><a href="https://twitter.com" class="fa fa-twitter"></a></li>
+                <li><a href="https://instagram.com" class="fa fa-instagram"></a></li>
+                <li><a href="https://facebook.com" class="fa fa-facebook"></a></li>
+            </ul>
+            <a href="./contact.html" class="contact">Contact Us</a>
+            <p>May lots of <i class="far fa-snowflake"></i> be here for you!</p>
+        </footer>
+
+    </body>
+</html>
